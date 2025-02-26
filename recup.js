@@ -1,4 +1,4 @@
-fetch('http://tonsite/api.php')
+fetch('http://localhost:8888/Tryptik/api.php')
     .then(response => response.json())
     .then(data => {
         console.log(data);
